@@ -1,0 +1,67 @@
+body{
+    background-color: #d1d5db;
+    direction: ltr;
+    font-family: inherit;
+    
+}
+.box{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 125px;
+    left: 900px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.one{
+    width: 380px;
+    margin: 10px;
+
+}
+#username{
+    width: 370px;
+    height: 40px;
+    border: 2px solid #d1d5db ;
+    border-radius: 5px;
+}
+#password{
+    width: 370px;
+    height: 40px;
+    border: 2px solid #d1d5db ;
+    border-radius: 5px;
+    
+    
+}
+#log{
+    width: 380px;
+    height: 40px;
+    background-color: #1877f2;
+    border: 2px solid #1877f2 ;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.prag{
+    display: flex;
+    justify-content: center;
+    color:#1877f2 ;
+    cursor: pointer;
+}
+.new{
+    display: flex;
+    justify-content: center;
+}
+#create{
+    width: 200px;
+    height: 40px;
+    background-color: #42b72a;
+    border: 2px solid #42b72a ;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.prag:hover{
+    text-decoration-line: underline;
+}
